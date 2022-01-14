@@ -15,18 +15,35 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+}
+
+.logo {
+  width: 128px;
+  margin: 32px 0px 0px 128px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  margin: 0;
+  margin: 32px 128px 0px 0px;
   padding: 0;
   gap: 16px;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #E5E7EB;
+}
+
+.sub-header {
+  margin: 64px 128px 64px 128px;
+}
+
+.header-text {
+  font-size: 48px;
+}
+
+.header-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
 }
