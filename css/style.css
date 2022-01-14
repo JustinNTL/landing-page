@@ -1,0 +1,32 @@
+body {
+  margin: 0px 128px 0px 128px;
+  background-color: #0e0e0e;
+  display: flex;
+  flex-flow: column;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.header {
+  background-color: #1F2937;
+  color: white;
+}
+
+.main-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
