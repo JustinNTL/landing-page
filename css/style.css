@@ -1,8 +1,9 @@
 body {
   margin: 0px 128px 0px 128px;
   background-color: #0e0e0e;
+  background-size: cover;
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
@@ -37,13 +38,25 @@ a {
 
 .sub-header {
   margin: 64px 128px 64px 128px;
+  display: flex;
+  gap: 64px;
 }
 
 .header-text {
   font-size: 48px;
+  font-weight: 900;
 }
 
 .header-subtext {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.right-header {
+  
+}
+
+.header-img {
+  width: 500px;
+  max-height: 250px;
 }
