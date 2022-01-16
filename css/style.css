@@ -10,6 +10,7 @@ body {
 .header {
   background-color: #1F2937;
   color: white;
+  padding-bottom: 32px;
 }
 
 .main-header {
@@ -47,10 +48,6 @@ a:hover {
   gap: 64px;
 }
 
-.left-header {
-  
-}
-
 .header-text {
   font-size: 48px;
   font-weight: 900;
@@ -63,6 +60,8 @@ a:hover {
 
 .header-authors {
   font-style: italic;
+  padding-left: 128px;
+  font-weight: bold;
 }
 
 button {
@@ -83,11 +82,18 @@ button {
   color: #E5E7EB;
 }
 
-.right-header {
-  
-}
-
 .header-img {
   min-width: 600px;
   max-height: 250px;
+}
+
+.mid-information {
+  background-color: white;
+  color: #1F2937;
+}
+
+.information-title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
 }
