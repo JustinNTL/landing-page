@@ -36,6 +36,11 @@ a {
   color: #E5E7EB;
 }
 
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .sub-header {
   margin: 64px 128px 64px 128px;
   display: flex;
@@ -66,15 +71,16 @@ button {
   transition-duration: 0.5s;
 }
 
-/* currently trying to figure out button animation and why the color is
-not blue then turn grey, and figure out how it opens a new tab
-instead of changing the current page*/
+.button1 {
+  background-color: #3882F6;
+  border: 1px solid #3882F6;
+  font-weight: bold;
+  color: white;
+}
 
 .button1:hover {
-  background: #3882F6;
-  border: 1px solid #3882F6;
-  color: white;
-  font-weight: bold;
+  background-color: #196ef7;
+  color: #E5E7EB;
 }
 
 .right-header {
