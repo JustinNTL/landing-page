@@ -42,6 +42,10 @@ a {
   gap: 64px;
 }
 
+.left-header {
+  
+}
+
 .header-text {
   font-size: 48px;
   font-weight: 900;
@@ -52,11 +56,32 @@ a {
   color: #E5E7EB;
 }
 
+.header-authors {
+  font-style: italic;
+}
+
+button {
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+}
+
+/* currently trying to figure out button animation and why the color is
+not blue then turn grey, and figure out how it opens a new tab
+instead of changing the current page*/
+
+.button1:hover {
+  background: #3882F6;
+  border: 1px solid #3882F6;
+  color: white;
+  font-weight: bold;
+}
+
 .right-header {
   
 }
 
 .header-img {
-  width: 500px;
+  min-width: 600px;
   max-height: 250px;
 }
