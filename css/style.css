@@ -65,7 +65,7 @@ a:hover {
 }
 
 button {
-  padding: 8px 16px 8px 16px;
+  padding: 8px 24px 8px 24px;
   border-radius: 8px;
   transition-duration: 0.5s;
 }
@@ -140,3 +140,38 @@ button {
   font-weight: 900;
 }
 
+.sub-footer {
+  background-color: white;
+}
+
+.sub-footer-action {
+  margin: 96px 128px 96px 128px;
+  padding: 48px 96px 48px 96px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.sub-footer-top {
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.sub-footer-bottom {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.button2 {
+  background-color: #3882F6;
+  border: 2px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #196ef7;
+  color: #E5E7EB;
+}
