@@ -118,3 +118,25 @@ button {
   border: 4px solid #3882F6;
   border-radius: 8px;
 }
+
+.body-quote {
+  padding: 128px 128px 128px 128px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inspirational-quote {
+  font-size: 32px;
+  font-style: italic;
+  width: 850px;
+}
+
+.body-author {
+  font-size: 24px;
+  padding-left: 500px;
+  font-weight: 900;
+}
+
